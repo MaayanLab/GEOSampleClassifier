@@ -1,57 +1,31 @@
-delet
-deficient
+delet|deficient
 conditional
 modif
-mutant
-mutat
-activation
-activator
-inhibit
-deactivat
-siRNA
-shRNA
-knock
-KO
-KD
-flox
-null
-knockout
-knockdown
-RNAi
-RNA interfer
+mutant|mutat
+wild.?type|wt
+(in)?activation|activator.*|inhibit|deactivat
+siRNA|shRNA|knock|KO|KD|flox|knockout|knockdown|RNAi|RNA interfer
 cre
-perturb
-disrupt
-stimulat
-over expression
-low expression
-high expression
-overexpressed
+\+\/\+|\+\/\-|\-\/\-|\-\/\+
+perturb|disrupt
+stimulat|over.?expression|low.?expression|high.?expression|overexpressed|over.?expressing
 transgen
+\sday|\dd|d\d
+hour|hr
+week|wk
 sday
-hour
-hr
-week
-wk
 infect
 virus
-control
 normal
-inoculat
-incubat
-treated
-treatment
+inoculat|incubat
+treated|treatment
 treat
-suppress
-silence|repress
+suppress|silence|repress
 target
 recombinant
 response
 expose
-treated with
-treat with
+treated with|treat with
 transduc
-induction
-induced
-induces
+induction|induced|induces
 induc
