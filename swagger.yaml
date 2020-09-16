@@ -1,0 +1,26 @@
+swagger: '2.0'
+info:
+  title: GEOclassifier API
+  version: "1.0"
+  description:  GEOclassifier API
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  /searchtool:
+    get:
+      operationId: GEOAPP.main
+      summary: classify samples
+      parameters:
+        - name: GSE_number
+          in: query
+          type: string
+          required: true
+      responses:
+        200:
+          description: similar tools as pmids
+          schema:
+            type: array
+            items:
+              type: string
